@@ -16,5 +16,203 @@
   /* var(--"somekey-attr") */
   background-color: var(--black-700);
 }
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+body{
+  font-family: "poppins";
+}
+body > #container {
+  max-width: 1440px;
+ /* width: 1140px;*/
+  min-width: 768px;
+  margin: auto;
+  border: 1px solid transparent;
+}
+header {
+  width: 100%;
+  height: 100px;
+  left: 0.23px;
+  border: 1px solid #ccc;
+  display: flex;
+  padding: 32px;
+}
+header  > div {
+  left: 0;
+  margin-right: 565px;
+}
+header > ul{
+  display: flex;
+  gap: 44px;
+}
+body > #container >  #mainBody{
+  width: 100%;
+  border: 1px solid #ccc;
+ 
+  height: 3900px;
+ 
+}
+
+body > #container >  #mainBody > #top{
+  width: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+}
+body > #container >  #mainBody > #top > #info {
+  margin-left:148px ;
+  width: 527px;
+  height: 510px;
+}
+body > #container >  #mainBody > #top > #info > a {
+  width: 195px;
+  height: 53px;
+  border: 1px solid #ccc;
+}
+
+body > #container >  #mainBody > #trendingGames{
+  border: 1px solid #ccc;
+  margin-left:148px ;
+  margin-right: 146px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body > #container >  #mainBody > #trendingGames >div  {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body > #container >  #mainBody > #trendingGames >div >  p{
+  width: 404px;
+  height: 58px;
+  
+  
+}
+body > #container >  #mainBody > #trendingGames >div >  a {
+  right: 0;
+  height: 57px;
+  width: 139px;
+  
+  
+ 
+}
+body > #container >  #mainBody > #trendingGames > ul {
+  width: 100%;
+  display: flex;
+  gap: 23.5px;
+}
+
+
+body > #container >  #mainBody > #trendingGames > ul > li > article 
+> .gameImg {
+  border: 1px solid #ccc;
+  width: 251px;
+  height: 277px;
+}
+body > #container >  #mainBody > #trendingGames > ul > li > article  > p {
+  margin: auto;
+  width: 170px;
+}
+body > #container >  #mainBody > #bigtext {
+  width: 826px;
+  height: 132px;
+  margin: auto;
+  margin-top: 129px;
+  margin-bottom: 67px;
+}
+body > #container >  #mainBody > #spiderMan{
+  width: 1146px;
+  height: 681px;
+  border: 1px solid #ccc;
+  margin-left: 148px;
+  margin-right: 146px;
+}
+body > #container >  #mainBody > #spiderMan > span {
+  width: 209px;
+  height: 40px;
+  border: 1px solid #ccc;
+
+  
+}
+body > #container >  #mainBody > #spiderMan > p{
+  width: 545px;
+  height: 101px;
+  border: 1px solid #ccc;
+
+}
+body > #container >  #mainBody > #spiderMan > #pic{
+  width: 1146px;
+  height: 462px;
+  border: 1px solid #ccc;
+
+}
+body > #container >  #mainBody > #recentProject {
+  border: 1px solid #ccc;
+  width: 1170px;
+  height: 710px;
+  margin-left: 135px;
+  border-radius: 20px;
+}
+body > #container >  #mainBody > #recentProject > h6{
+  width: 305px;
+  height: 56px;
+  margin-left: 567px;
+}
+body > #container >  #mainBody > #recentProject > p{
+  width: 497px;
+  height: 57px;
+  text-align: center;
+  margin-left: 471px;
+}
+body > #container >  #mainBody > #recentProject > .pic{
+  width: 100%;
+  border: 1px solid #ccc;
+}
+body > #container >  #mainBody > #recentProject >.pic > #row1 {
+  width: 382px;
+  height: 223px;
+  margin-bottom: 33px;
+  display: flex;
+  gap: 27px;
+}
+ body > #container >  #mainBody > #recentProject >.pic > #row1 > #pic1{
+  width: 34.5%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
+ body > #container >  #mainBody > #recentProject>.pic > #row1> #pic2{
+  width: 34.5%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
+ body > #container >  #mainBody > #recentProject >.pic> #row1> #pic3{
+  width: 31%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
+
+ body > #container >  #mainBody > #recentProject >.pic > #row2 {
+  width: 100%;
+  height: 223px;
+  display: flex;
+  gap: 27px;
+}
+ 
+ body > #container >  #mainBody > #recentProject >.pic > #row2 > #pic4{
+  width: 34.5%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
+ body > #container >  #mainBody > #recentProject>.pic > #row2> #pic5{
+  width: 34.5%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
+ body > #container >  #mainBody > #recentProject >.pic> #row2> #pic6{
+  width: 31%;
+  height: 100%;
+  border: 1px solid #ccc;
+ }
 
 /* good luck */
