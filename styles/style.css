@@ -10,6 +10,10 @@
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --back-ground-color : #3B2A9F;
+  --primery-color : #5141AA;
+  --secondery-color : #FA8305;
+
 }
 /* 3. and we use it like this */
 .elementOne {
